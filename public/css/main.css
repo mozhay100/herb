@@ -1,0 +1,101 @@
+body{
+    background: rgb(3,7,64);
+    background: linear-gradient(90deg, rgba(3,7,64,1) 2%, rgba(10,3,61,1) 60%, rgba(0,0,0,1) 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+}
+/*
+#bodyContainer{
+   
+}*/
+.welcomeContent{
+    margin-top: 50px;
+    text-align: center;
+}
+.welcomeContent img{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.welcomeContent ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 20px;
+}
+.welcomeContent p{
+    color: rgb(118, 216, 5);
+    text-transform: uppercase;
+}
+.welcomeContent a{
+    color: whitesmoke;
+    text-decoration: none; 
+}
+.welcomeContent a:hover{
+    color: rgb(118, 216, 5);
+    text-decoration: none; 
+    transition: 0.3s;
+}
+.card{
+    background-color: rgb(0, 3, 36);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.card:hover{
+    background-color: rgb(1, 6, 53);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardButton{
+    text-align: right;
+}
+.formDiv{
+    background-color: rgb(0, 3, 36);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#formInput{
+    border: none;
+    border-bottom: 2px solid rgb(6, 113, 155);
+    background: none;
+    border-radius: 0px;
+    color: rgb(177, 171, 171);
+}
+.paginationLink p{
+    text-align: right;
+}
+.checkboxes .form-check{
+    display: inline-block;
+    margin: 0 15px;
+}
+label{
+    color: white;
+}
+#card-label{
+    color: white;
+}
+.card-label{
+    color: white;
+}
+.nav-link:hover{
+    border-bottom: 1px solid rgb(6, 113, 155);
+    transition: 0.5s;
+}
+#home-create{
+    text-align: right;
+    color: white;
+}
+#home-create:hover{
+    color: aqua;
+    background-color: white;
+}
+#link-to-create{
+    text-align: right;
+}
+#link-to-create a{
+    color:  rgb(6, 113, 155);
+}
+.showLastCol{
+    padding: 10px;
+    border-left: 2px solid rgb(6, 113, 155);
+}
